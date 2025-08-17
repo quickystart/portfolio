@@ -1,0 +1,38 @@
+// compress: true
+@import "vars";
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-VariableFont_wght.ttf");
+}
+
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope";
+    font-size: 1rem;
+    font-weight: 650;
+    color: @black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    transition: .1s ease-in-out;
+}
+
+/* blocks */
+@import "blocks/animation";
+@import "blocks/article";
+@import "blocks/container";
+@import "blocks/designs";
+@import "blocks/footer";
+@import "blocks/header";
+@import "blocks/me";
+@import "blocks/nav";
+@import "blocks/phone";
+@import "blocks/portfolio";
